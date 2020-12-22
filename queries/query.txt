@@ -1,0 +1,1 @@
+(v1:person)-[e1:knows]->(v2:person)<-[e2:hasCreator]-(v3:comment{'creationDate':'1415779389835'})
