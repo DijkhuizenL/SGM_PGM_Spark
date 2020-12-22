@@ -23,7 +23,7 @@ Subsequently, move the extracted folder to a location known to you. This is the 
 Several settings are need to be changed to run the application. These settings can be found in the `main.py` file.
 
 To run the application in the PySpark environment, copy the path of the $SPARK_HOME directory inbetween the brackets of `findspark.init()` in line `15`.
-The `sparkContext` requires a master IP and an application name. The master URL is currently set to `local[*]`, but allows connection to different master nodes. More information on master URLs and connections can be found [here](https://spark.apache.org/docs/latest/submitting-applications.html).
+The `sparkContext` requires a master URL and an application name. The master URL is currently set to `local[*]`, but allows connection to different master nodes. More information on master URLs and connections can be found [here](https://spark.apache.org/docs/latest/submitting-applications.html).
 
 ## Running the application
 To run the application, set the `graph_filename` variable at line `286` in the `main.py` file, which is a path to the graph data file which you want to query.  To define the query, copy a valid LuuQL query in the `queries/query.txt` file.
